@@ -18,20 +18,20 @@ static const uint32_t GPSBaud = 9600;                       // Ublox GPS default
 TinyGPSPlus gps;                                            // Create an Instance of the TinyGPS++ object called gps
 SoftwareSerial ss(RXPin, TXPin);                            // The serial connection to the GPS device
 
-const double HOME_LAT = 32.428348;                          // Enter Your Latitude and Longitude here
-const double HOME_LNG = -81.738143;                         // to track how far away the "Dog" is away from Home 
+const double HOME_LAT = **.******;                          // Enter Your Latitude and Longitude here
+const double HOME_LNG = ***.******;                         // to track how far away the "Dog" is away from Home 
 
 /************************* WiFi Access Point *********************************/
 
-#define WLAN_SSID       "warroom2"                          // Enter Your router SSID
-#define WLAN_PASS       "1234567890"                        // Enter Your router Password
+#define WLAN_SSID       "********"                          // Enter Your router SSID
+#define WLAN_PASS       "**********"                        // Enter Your router Password
 
 /************************* Adafruit.io Setup *********************************/
 
 #define AIO_SERVER      "io.adafruit.com"
 #define AIO_SERVERPORT  1883                                // use 8883 for SSL
-#define AIO_USERNAME    "mkconner"                          // Enter Your Adafruit IO Username
-#define AIO_KEY         "ae46b78dec7c48c3af2e7a0784f9781e"  // Enter Your Adafruit IO Key
+#define AIO_USERNAME    "********"                          // Enter Your Adafruit IO Username
+#define AIO_KEY         "********************************"  // Enter Your Adafruit IO Key
 
 /************ Global State (you don't need to change this!) ******************/
 
